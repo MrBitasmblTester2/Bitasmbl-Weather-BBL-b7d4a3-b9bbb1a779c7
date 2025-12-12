@@ -1,0 +1,1 @@
+export async function fetchWeather(city){const r=await fetch(`/api/weather?city=${encodeURIComponent(city)}`);return r.json();}
