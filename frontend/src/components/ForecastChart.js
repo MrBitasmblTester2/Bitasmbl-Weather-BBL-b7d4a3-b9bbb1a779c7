@@ -1,0 +1,1 @@
+import React from 'react';export default function ForecastChart({points}){return(<svg width='300' height='100'></svg>);
