@@ -1,0 +1,1 @@
+const app=require('./server');const weatherRoutes=require('./routes/weatherRoutes');app.use('/api',weatherRoutes);
