@@ -1,0 +1,1 @@
+package com.weatherbbl.controller;public class ForecastController{public String getForecast(){return "";}}
