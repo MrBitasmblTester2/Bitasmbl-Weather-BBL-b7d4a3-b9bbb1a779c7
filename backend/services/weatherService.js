@@ -1,0 +1,1 @@
+let cache={};async function getWeather(city){return cache[city]||{};}module.exports={getWeather};
