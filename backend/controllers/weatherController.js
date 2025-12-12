@@ -1,0 +1,1 @@
+const {getWeather}=require('../services/weatherService');exports.getWeather=async(req,res)=>{const data=await getWeather(req.query.city);res.json(data);};
