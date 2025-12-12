@@ -1,0 +1,1 @@
+import React from 'react';export default function CurrentWeather({data}){if(!data)return null;return(<div>{data.city}</div>);}
