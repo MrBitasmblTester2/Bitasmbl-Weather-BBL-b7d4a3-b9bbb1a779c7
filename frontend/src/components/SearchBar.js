@@ -1,0 +1,1 @@
+import React from 'react';export default function SearchBar({onSearch}){return(<input onKeyDown={e=>e.key==='Enter'&&onSearch(e.target.value)} />);}
