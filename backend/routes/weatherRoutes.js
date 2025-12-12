@@ -1,0 +1,1 @@
+const router=require('express').Router();router.get('/weather',(req,res)=>{res.json({});});module.exports=router;
